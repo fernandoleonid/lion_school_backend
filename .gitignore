@@ -1,0 +1,34 @@
+# Dependências
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.pnpm-store/
+
+# Ambiente
+.env
+.env.local
+.env.*.local
+
+# Build/Distribuição
+/dist
+/build
+/.next
+/out
+/public/build
+
+# JSON Server (opcional - veja nota abaixo)
+# db.json
+
+# IDE/Editor
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# Sistema
+.DS_Store
+Thumbs.db
