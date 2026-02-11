@@ -1,0 +1,276 @@
+{
+  "cursos": [
+    {
+      "id": 1,
+      "nome": "Desenvolvimento de Sistemas",
+      "sigla": "DS"
+    },
+    {
+      "id": 2,
+      "nome": "Redes",
+      "sigla": "REDES"
+    }
+  ],
+  "alunos": [
+    {
+      "id": 1,
+      "nome": "Mariana Silva Santos",
+      "curso_id": 1,
+      "foto": "https://i.pravatar.cc/300?img=25",
+      "desempenho": [
+        { "categoria": "SGP", "valor": 85 },
+        { "categoria": "IP", "valor": 92 },
+        { "categoria": "LING", "valor": 78 },
+        { "categoria": "BD", "valor": 88 },
+        { "categoria": "PPE", "valor": 95 }
+      ]
+    },
+    {
+      "id": 2,
+      "nome": "Lucas Ferreira Costa",
+      "curso_id": 1,
+      "foto": "https://i.pravatar.cc/300?img=2",
+      "desempenho": [
+        { "categoria": "SGP", "valor": 72 },
+        { "categoria": "IP", "valor": 85 },
+        { "categoria": "LING", "valor": 80 },
+        { "categoria": "BD", "valor": 90 },
+        { "categoria": "PPE", "valor": 88 }
+      ]
+    },
+    {
+      "id": 3,
+      "nome": "Ana Beatriz Oliveira",
+      "curso_id": 1,
+      "foto": "https://i.pravatar.cc/300?img=30",
+      "desempenho": [
+        { "categoria": "SGP", "valor": 90 },
+        { "categoria": "IP", "valor": 75 },
+        { "categoria": "LING", "valor": 92 },
+        { "categoria": "BD", "valor": 83 },
+        { "categoria": "PPE", "valor": 87 }
+      ]
+    },
+    {
+      "id": 4,
+      "nome": "Pedro Henrique Almeida",
+      "curso_id": 1,
+      "foto": "https://i.pravatar.cc/300?img=4",
+      "desempenho": [
+        { "categoria": "SGP", "valor": 78 },
+        { "categoria": "IP", "valor": 88 },
+        { "categoria": "LING", "valor": 72 },
+        { "categoria": "BD", "valor": 95 },
+        { "categoria": "PPE", "valor": 82 }
+      ]
+    },
+    {
+      "id": 5,
+      "nome": "Juliana Mendes Rocha",
+      "curso_id": 1,
+      "foto": "https://i.pravatar.cc/300?img=5",
+      "desempenho": [
+        { "categoria": "SGP", "valor": 88 },
+        { "categoria": "IP", "valor": 90 },
+        { "categoria": "LING", "valor": 85 },
+        { "categoria": "BD", "valor": 79 },
+        { "categoria": "PPE", "valor": 93 }
+      ]
+    },
+    {
+      "id": 6,
+      "nome": "Gabriel Santos Lima",
+      "curso_id": 1,
+      "foto": "https://i.pravatar.cc/300?img=3",
+      "desempenho": [
+        { "categoria": "SGP", "valor": 82 },
+        { "categoria": "IP", "valor": 76 },
+        { "categoria": "LING", "valor": 89 },
+        { "categoria": "BD", "valor": 84 },
+        { "categoria": "PPE", "valor": 91 }
+      ]
+    },
+    {
+      "id": 7,
+      "nome": "Carolina Vieira Martins",
+      "curso_id": 1,
+      "foto": "https://i.pravatar.cc/300?img=31",
+      "desempenho": [
+        { "categoria": "SGP", "valor": 75 },
+        { "categoria": "IP", "valor": 83 },
+        { "categoria": "LING", "valor": 77 },
+        { "categoria": "BD", "valor": 86 },
+        { "categoria": "PPE", "valor": 89 }
+      ]
+    },
+    {
+      "id": 8,
+      "nome": "Rafael Nunes Pereira",
+      "curso_id": 1,
+      "foto": "https://i.pravatar.cc/300?img=8",
+      "desempenho": [
+        { "categoria": "SGP", "valor": 92 },
+        { "categoria": "IP", "valor": 87 },
+        { "categoria": "LING", "valor": 81 },
+        { "categoria": "BD", "valor": 78 },
+        { "categoria": "PPE", "valor": 85 }
+      ]
+    },
+    {
+      "id": 9,
+      "nome": "Fernanda Costa Rodrigues",
+      "curso_id": 1,
+      "foto": "https://i.pravatar.cc/300?img=9",
+      "desempenho": [
+        { "categoria": "SGP", "valor": 86 },
+        { "categoria": "IP", "valor": 79 },
+        { "categoria": "LING", "valor": 90 },
+        { "categoria": "BD", "valor": 82 },
+        { "categoria": "PPE", "valor": 88 }
+      ]
+    },
+    {
+      "id": 10,
+      "nome": "Bruno Alves Castro",
+      "curso_id": 1,
+      "foto": "https://i.pravatar.cc/300?img=11",
+      "desempenho": [
+        { "categoria": "SGP", "valor": 79 },
+        { "categoria": "IP", "valor": 84 },
+        { "categoria": "LING", "valor": 86 },
+        { "categoria": "BD", "valor": 91 },
+        { "categoria": "PPE", "valor": 83 }
+      ]
+    },
+    {
+      "id": 11,
+      "nome": "Amanda Souza Gomes",
+      "curso_id": 2,
+      "foto": "https://i.pravatar.cc/300?img=10",
+      "desempenho": [
+        { "categoria": "SGP", "valor": 89 },
+        { "categoria": "IP", "valor": 81 },
+        { "categoria": "LING", "valor": 76 },
+        { "categoria": "BD", "valor": 87 },
+        { "categoria": "PPE", "valor": 94 }
+      ]
+    },
+    {
+      "id": 12,
+      "nome": "Felipe Ribeiro Dias",
+      "curso_id": 2,
+      "foto": "https://i.pravatar.cc/300?img=12",
+      "desempenho": [
+        { "categoria": "SGP", "valor": 77 },
+        { "categoria": "IP", "valor": 93 },
+        { "categoria": "LING", "valor": 83 },
+        { "categoria": "BD", "valor": 75 },
+        { "categoria": "PPE", "valor": 90 }
+      ]
+    },
+    {
+      "id": 13,
+      "nome": "Larissa Monteiro",
+      "curso_id": 2,
+      "foto": "https://i.pravatar.cc/300?img=35",
+      "desempenho": [
+        { "categoria": "SGP", "valor": 84 },
+        { "categoria": "IP", "valor": 88 },
+        { "categoria": "LING", "valor": 91 },
+        { "categoria": "BD", "valor": 77 },
+        { "categoria": "PPE", "valor": 86 }
+      ]
+    },
+    {
+      "id": 14,
+      "nome": "Vinícius Barbosa",
+      "curso_id": 2,
+      "foto": "https://i.pravatar.cc/300?img=14",
+      "desempenho": [
+        { "categoria": "SGP", "valor": 91 },
+        { "categoria": "IP", "valor": 74 },
+        { "categoria": "LING", "valor": 82 },
+        { "categoria": "BD", "valor": 89 },
+        { "categoria": "PPE", "valor": 79 }
+      ]
+    },
+    {
+      "id": 15,
+      "nome": "Isabela Cardoso",
+      "curso_id": 2,
+      "foto": "https://i.pravatar.cc/300?img=36",
+      "desempenho": [
+        { "categoria": "SGP", "valor": 87 },
+        { "categoria": "IP", "valor": 86 },
+        { "categoria": "LING", "valor": 78 },
+        { "categoria": "BD", "valor": 93 },
+        { "categoria": "PPE", "valor": 85 }
+      ]
+    },
+    {
+      "id": 16,
+      "nome": "Daniel Oliveira Silva",
+      "curso_id": 2,
+      "foto": "https://i.pravatar.cc/300?img=16",
+      "desempenho": [
+        { "categoria": "SGP", "valor": 82 },
+        { "categoria": "IP", "valor": 79 },
+        { "categoria": "LING", "valor": 87 },
+        { "categoria": "BD", "valor": 84 },
+        { "categoria": "PPE", "valor": 91 }
+      ]
+    },
+    {
+      "id": 17,
+      "nome": "Camila Ferreira",
+      "curso_id": 2,
+      "foto": "https://i.pravatar.cc/300?img=38",
+      "desempenho": [
+        { "categoria": "SGP", "valor": 76 },
+        { "categoria": "IP", "valor": 88 },
+        { "categoria": "LING", "valor": 75 },
+        { "categoria": "BD", "valor": 92 },
+        { "categoria": "PPE", "valor": 83 }
+      ]
+    },
+    {
+      "id": 18,
+      "nome": "Lucas Mendes",
+      "curso_id": 2,
+      "foto": "https://i.pravatar.cc/300?img=18",
+      "desempenho": [
+        { "categoria": "SGP", "valor": 93 },
+        { "categoria": "IP", "valor": 80 },
+        { "categoria": "LING", "valor": 85 },
+        { "categoria": "BD", "valor": 78 },
+        { "categoria": "PPE", "valor": 89 }
+      ]
+    },
+    {
+      "id": 19,
+      "nome": "Raquel Costa",
+      "curso_id": 2,
+      "foto": "https://i.pravatar.cc/300?img=26",
+      "desempenho": [
+        { "categoria": "SGP", "valor": 81 },
+        { "categoria": "IP", "valor": 86 },
+        { "categoria": "LING", "valor": 90 },
+        { "categoria": "BD", "valor": 83 },
+        { "categoria": "PPE", "valor": 77 }
+      ]
+    },
+    {
+      "id": 20,
+      "nome": "Thiago Almeida",
+      "curso_id": 2,
+      "foto": "https://i.pravatar.cc/300?img=17",
+      "desempenho": [
+        { "categoria": "SGP", "valor": 74 },
+        { "categoria": "IP", "valor": 91 },
+        { "categoria": "LING", "valor": 84 },
+        { "categoria": "BD", "valor": 87 },
+        { "categoria": "PPE", "valor": 92 }
+      ]
+    }
+  ]
+}

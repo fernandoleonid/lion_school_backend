@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script src="https://cdn.tailwindcss.com"></script>
+  <title>API Mock - Lion School</title>
+</head>
+<body class="bg-gradient-to-br from-blue-100 to-purple-100 min-h-screen flex items-center justify-center p-4">
+  <div class="bg-white rounded-xl shadow-2xl max-w-3xl w-full p-8">
+    <h1 class="text-4xl font-bold text-purple-700 mb-2">🎓 API Mock - Lion School</h1>
+    <p class="text-gray-600 mb-8 text-lg">Endpoints disponíveis</p>
+
+    <div class="space-y-4">
+      <!-- GET /cursos -->
+      <div class="bg-blue-50 p-4 rounded-lg flex items-start gap-4 border-l-4 border-blue-400">
+        <span class="font-bold text-blue-600 min-w-[60px] text-center">GET</span>
+        <div>
+          <div class="font-mono text-blue-700 font-medium">/cursos</div>
+          <div class="text-gray-600 text-sm mt-1">Lista todos os cursos disponíveis</div>
+        </div>
+      </div>
+
+      <!-- GET /alunos -->
+      <div class="bg-blue-50 p-4 rounded-lg flex items-start gap-4 border-l-4 border-blue-400">
+        <span class="font-bold text-blue-600 min-w-[60px] text-center">GET</span>
+        <div>
+          <div class="font-mono text-blue-700 font-medium">/alunos</div>
+          <div class="text-gray-600 text-sm mt-1">Lista todos os alunos</div>
+        </div>
+      </div>
+
+      <!-- GET /alunos?curso_id=1 -->
+      <div class="bg-blue-50 p-4 rounded-lg flex items-start gap-4 border-l-4 border-blue-400">
+        <span class="font-bold text-blue-600 min-w-[60px] text-center">GET</span>
+        <div>
+          <div class="font-mono text-blue-700 font-medium">/alunos?curso_id=1</div>
+          <div class="text-gray-600 text-sm mt-1">Filtra alunos por curso (1 = DS, 2 = REDES)</div>
+        </div>
+      </div>
+
+      <!-- GET /alunos/1 -->
+      <div class="bg-blue-50 p-4 rounded-lg flex items-start gap-4 border-l-4 border-blue-400">
+        <span class="font-bold text-blue-600 min-w-[60px] text-center">GET</span>
+        <div>
+          <div class="font-mono text-blue-700 font-medium">/alunos/1</div>
+          <div class="text-gray-600 text-sm mt-1">Detalhes de um aluno específico pelo ID</div>
+        </div>
+      </div>
+    </div>
+
+    <div class="text-center mt-8 text-gray-500 text-sm">
+      <p>Lion School • Desenvolvido para frontend • Fernando Leonid</p>
+    </div>
+  </div>
+</body>
+</html>
